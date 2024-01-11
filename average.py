@@ -1,9 +1,4 @@
 # Project 2a
-Please enter five numbers.
--2.4
-5.1
-6.0
-123.8
--19.0
-The average of those numbers is:
-22.7
+
+my_sum = -19.0 + -2.4 + 5.1 + 6.0 + 123.8  # 113.5
+quotient: float = 113.5 / 5  # 22.7
