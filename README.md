@@ -1,10 +1,9 @@
 # Project 2a
-
-print('please enter five numbers')
-print('-2.4')
-print('5.1')
-print('6.0')
-print('123.8')
-print('-19.0')
-print('The average of those numbers is')
-print('22.7')
+Output:'please enter five numbers'
+'-2.4'
+'5.1'
+'6.0'
+'123.8'
+'-19.0'
+'The average of those numbers is'
+'22.7'
