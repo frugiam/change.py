@@ -6,4 +6,4 @@ for x in range(5):
 average = result/5
 rounded_average = round(average, 1)
 print("The average of those numbers is:")
-print("%.15f" % rounded_average)
+print("%.1f" % rounded_average)
