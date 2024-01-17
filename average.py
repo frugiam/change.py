@@ -3,5 +3,7 @@ print("Please enter five numbers.")
 result = 0
 for x in range(5):
     result += eval(input())
+average = result/5
+rounded_average = round(average, 1)
 print("The average of those numbers is:")
-print("%.1f"%(result/5))
+print("%.1f" % rounded_average)
