@@ -4,4 +4,4 @@ result = 0
 for x in range(5):
     result += eval(input())
 print("The average of those numbers is:")
-print("%d." % (result / 5))
+print("%.1f"%(result/5))
