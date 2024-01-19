@@ -5,10 +5,13 @@
 cents = int(input('Please enter an amount in cents less than a dollar.'))
 ct = cents
 quarters = cents // 25
-cents -= (quarters*25)
+cents -= (quarters * 25)
 dimes = cents // 10
 cents -= (dimes * 10)
 nickels = cents // 5
 cents -= (nickels * 5)
 pennies = cents // 1
-print("With "+str(ct)+" cents you can have "+str(quarters)+" quarters, "+str(dimes)+ " dimes, "+str(nickels)+" nickels, "+str(pennies)+" pennies.")
+cents -= (pennies * 1)
+print('Your change will be: ')
+print("With " + str(ct) + " cents you can have " + str(quarters) + " quarters, " + str(dimes) + " dimes, " + str(
+    nickels) + "nickels," + str(pennies) + " pennies.")
