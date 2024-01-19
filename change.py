@@ -2,7 +2,7 @@
 # GitHub username: frugiam
 # Date: 01/18/2024
 # Description: Project 2c Write a program that asks the user for a (integer) number of cents.
-cents = int(input("How many cents do you have? "))
+cents = int(input('Please enter an amount in cents less than a dollar.'))
 ct = cents
 quarters = cents // 25
 cents -= (quarters*25)
